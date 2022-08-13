@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Query selector</title>
+</head>
+<h1 class="tags">
+    Welcome to my DOM
+</h1>
+
+<h1>
+    What is dom?
+</h1 class="tags">
+<h1>
+    I have absolutely no Idea...
+</h1>
+<h1 class="tags">
+    I am just exploring it right now.
+</h1>
+<h1 class="tags">
+    what I need to focus on right now?
+</h1>
+<ul>
+    <li>document.getElementsByTagName()</li>
+    <li>document.getElementById()</li>
+    <li>document.getElementsByclass()</li>
+    <li>document.getElementByquerySelector</li>
+    <li>document.querySelectorAll</li>
+</ul>
+
+<h2>Dynamic styles I need to know-
+    <p>What are dynamic styles?</p>
+    <p>An element's style can be changed dynamically. Often such a change is made in response to user events, which
+        we discuss in Chapter 11. Such style changes can create many effects, including mouse hover effects,
+        interactive menus, and animations</p>
+</h2>
+<ul>
+    <li>innerText</li>
+    <li>innerHTML</li>
+    <li>getAttribute</li>
+    <li>setAttribute</li>
+</ul>
+<script>
+    const listCollection = document.querySelectorAll('h1');
+    const tags = document.getElementsByClassName('tags');
+    const item = document.querySelector('ul');
+    console.log(item);
+    // for (list of listCollection) {
+    //     console.log(list);
+    // }
+    // for (tag of tags) {
+    //     console.log(tag);
+    // }
+</script>
+
+<body>
+
+</body>
+
+</html>
