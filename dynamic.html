@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic</title>
+</head>
+
+<body>
+    <h1 class="tags blue have no clue" id="first">
+        Welcome to my DOM
+    </h1>
+
+    <h1>
+        What is dom?
+    </h1 class="tags">
+    <h1>
+        I have absolutely no Idea...
+    </h1>
+    <h1 class="tags">
+        I am just exploring it right now.
+    </h1>
+    <h1 class="tags">
+        what I need to focus on right now?
+    </h1>
+    <ul>
+        <li>document.getElementsByTagName()</li>
+        <li>document.getElementById()</li>
+        <li>document.getElementsByclass()</li>
+        <li>document.getElementByquerySelector</li>
+        <li>document.querySelectorAll</li>
+    </ul>
+
+    <h2>Dynamic styles I need to know-
+        <p>What are dynamic styles?</p>
+        <p>An element's style can be changed dynamically. Often such a change is made in response to user events, which
+            we discuss in Chapter 11. Such style changes can create many effects, including mouse hover effects,
+            interactive menus, and animations</p>
+    </h2>
+    <ul>
+        <li>innerText</li>
+        <li>innerHTML</li>
+        <li>getAttribute</li>
+        <li>setAttribute</li>
+    </ul>
+
+    <script>
+        const dynamic = document.getElementById('first');
+        //const det = dynamic.getAttribute('class');
+
+        // const det = dynamic;
+        // console.log(det.classList);
+        // det.classList.remove('tags');
+        // console.log(det.classList);
+        // det.classList.add('summer-sky');
+        // console.log(det.classList);
+
+
+        const set = document.getElementById('first');
+        console.log(set);
+        set.setAttribute('title', 'tui ekta goru');
+
+
+    </script>
+</body>
+
+</html>
