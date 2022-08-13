@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Object Model-DOM</title>
+    <style>
+        body {
+            color: brown;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>
+        Welcome to my DOM
+    </h1>
+
+    <h1>
+        What is dom?
+    </h1>
+    <h1>
+        I have absolutely no Idea...
+    </h1>
+    <h1>
+        I am just exploring it right now.
+    </h1>
+    <h1>
+        what I need to focus on right now?
+    </h1>
+    <ul>
+        <li>document.getElementsByTagName()</li>
+        <li>document.getElementById()</li>
+        <li>document.getElementsByclass()</li>
+        <li>document.getElementByquerySelector</li>
+        <li>document.querySelectorAll</li>
+    </ul>
+
+    <h2>Dynamic styles I need to know-
+        <p>What are dynamic styles?</p>
+        <p>An element's style can be changed dynamically. Often such a change is made in response to user events, which
+            we discuss in Chapter 11. Such style changes can create many effects, including mouse hover effects,
+            interactive menus, and animations</p>
+    </h2>
+    <ul>
+        <li>innerText</li>
+        <li>innerHTML</li>
+        <li>getAttribute</li>
+        <li>setAttribute</li>
+    </ul>
+
+
+
+    <script>
+        // const tagNames = document.getElementsByTagName('h2');
+        // for (let i = 0; i < tagNames.length; i++) {
+        //     console.log(tagNames[i].innerHTML);
+        // }
+        // for (const name of tagNames) {
+        //     console.log(name.innerText);
+        // }
+        const student = {
+            name: 'alal',
+            age: 16,
+            Id: 11,
+            study: function (time) {
+                console.log(student.name, time, 'tay study kore');
+            }
+        }
+        console.log(student.name);
+        console.log(student.age);
+        console.log(student.Id);
+        student.study(2);
+
+
+    </script>
+</body>
+
+</html>
