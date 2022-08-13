@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Query selector</title>
 </head>
-<h1 class="tags">
+<h1 class="tags" id="first">
     Welcome to my DOM
 </h1>
 
@@ -47,13 +47,14 @@
     const listCollection = document.querySelectorAll('h1');
     const tags = document.getElementsByClassName('tags');
     const item = document.querySelector('ul');
-    console.log(item);
+    // console.log(item);
     // for (list of listCollection) {
     //     console.log(list);
     // }
     // for (tag of tags) {
     //     console.log(tag);
     // }
+    document.getElementById('first').style.backgroundColor = 'yellow';
 </script>
 
 <body>
