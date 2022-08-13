@@ -60,21 +60,24 @@
         // }
         // for (const name of tagNames) {
         //     console.log(name.innerText);
+        // // }
+        // const student = {
+        //     name: 'alal',
+        //     age: 16,
+        //     Id: 11,
+        //     study: function (time) {
+        //         console.log(student.name, time, 'tay study kore');
+        //     }
         // }
-        const student = {
-            name: 'alal',
-            age: 16,
-            Id: 11,
-            study: function (time) {
-                console.log(student.name, time, 'tay study kore');
-            }
+        // console.log(student.name);
+        // console.log(student.age);
+        // console.log(student.Id);
+        // student.study(2);
+        const tags = document.getElementsByTagName('li');
+
+        for (const tag of tags) {
+            console.log(tag.innerText);
         }
-        console.log(student.name);
-        console.log(student.age);
-        console.log(student.Id);
-        student.study(2);
-
-
     </script>
 </body>
 
