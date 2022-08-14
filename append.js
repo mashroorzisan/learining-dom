@@ -39,3 +39,18 @@ ul.appendChild(li5);
 mainContainer.appendChild(sectionLast);
 
 //append sections and nodes directly
+const lastNode = document.createElement('section');
+lastNode.innerHTML = `
+<h1>My hobbies</h1>
+    <ul>
+        <li>astrophography</li>
+        <li>skyPhography</li>
+        <li>drawing</li>
+        <li>making things</li>
+        <li>riding motorcycle</li>
+        <li>riding cycle</li>
+        <li>sky diving</li>
+        <li>adventure tour</li>
+    </ul>
+`
+mainContainer.appendChild(lastNode);
